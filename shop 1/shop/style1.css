@@ -1,0 +1,121 @@
+        body {
+            font: 14px sans-serif;
+            text-align: center;
+            background-color: lightgreen;
+            /* green background */
+        }
+        
+        .header {
+            padding: 1px;
+            /* some padding */
+            text-align: center;
+            /* center the text */
+            background-color: green;
+            /* green background */
+            color: black;
+            /* black text color */
+        }
+        /* Increase the font size of the <h1> element */
+        
+        .header h1 {
+            font-size: 70px;
+        }
+        /* Style the top navigation bar */
+        
+        .navbar {
+            overflow: hidden;
+            /* Hide overflow */
+            background-color: #333;
+            /* Dark background color */
+        }
+        /* Style the navigation bar links */
+        
+        .navbar a {
+            float: left;
+            /* Make sure that the links stay side-by-side */
+            display: block;
+            /* Change the display to block, for responsive reasons (see below) */
+            color: white;
+            /* White text color */
+            text-align: center;
+            /* Center the text */
+            padding: 14px 20px;
+            /* Add some padding */
+            text-decoration: none;
+            /* Remove underline */
+        }
+        /* Right-aligned link */
+        
+        .navbar a.right {
+            float: right;
+            /* Float a link to the right */
+        }
+        /* Change color on hover/mouse-over */
+        
+        .navbar a:hover {
+            background-color: #ddd;
+            /* Grey background color */
+            color: black;
+            /* Black text color */
+        }
+        /* Bordered form */
+        
+        form {
+            border: 3px solid #f1f1f1;
+        }
+        /* Full-width inputs */
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        /* Set a style for all buttons */
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        /* Add a hover effect for buttons */
+        
+        button:hover {
+            opacity: 0.8;
+        }
+        /* Extra style for the cancel button (red) */
+        
+        .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+        }
+        /* Add padding to containers */
+        
+        .container {
+            padding: 16px;
+        }
+        /* The "Forgot password" text */
+        
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+        /* Change styles for span and cancel button on extra small screens */
+        
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .cancelbtn {
+                width: 100%;
+            }
+        }

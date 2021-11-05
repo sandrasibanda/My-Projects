@@ -1,0 +1,12 @@
+************************************LOGIN IINFORMATION******************************************\
+USERNAME: ADMIN
+PASSWORD: ADMIN
+
+
+************************************STEPS*********************************************************
+1)START FIREFOX WEB BROWSER
+2)START XAMP AND GO TO ADMIN  MYPHP
+3)CREATE DATABASE ISHOP
+4)IMPORT .SQL FILE NAMED ishop.sql
+5)go to firefox 
+6)localhost/shop/index.php
