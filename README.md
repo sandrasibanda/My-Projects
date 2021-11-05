@@ -26,5 +26,8 @@ I am a junior systems and software developer currently unemployed.I am working v
   
 ## 🛠 Skills
 Javascript, HTML, CSS, Kotlin, Java, Python, Javascript.
+Databases: Mysql workbench, mariadb, Ms Access
+
+
 
   
