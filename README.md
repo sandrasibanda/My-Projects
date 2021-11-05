@@ -16,12 +16,11 @@ all the work I have done.
 
   
 ## 🚀 About Me
-I am a junior systems and software developer currently working
- as a Technical Analyst.I am working very hard to improve my 
+I am a junior systems and software developer currently unemployed.I am working very hard to improve my 
  programming skills. 
 
   
-# Hi, I'm Sandra! 👋
+# Hi, I'm Sandra! This is all my work👋
 
   
   
