@@ -30,7 +30,7 @@ public class frmLogin extends javax.swing.JFrame {
     
     private void mFetchUserDetails()
     {
-        String strDBConncetionString = "Server=tcp:my-projects.database.windows.net,1433;Initial Catalog=gateaccesscontrol;Persist Security Info=False;User ID=rootuser;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        String strDBConncetionString = "jdbc:sqlserver://my-projects.database.windows.net:1433;database=gateaccesscontrol;user=rootuser@my-projects;password=AccessDen13d;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
         String strDBUser = "rootuser";
         String strDBPassword = "AccessDen13d";
         java.sql.Connection conMySQLConnectionString;
