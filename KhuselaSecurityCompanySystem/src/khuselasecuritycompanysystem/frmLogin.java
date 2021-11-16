@@ -31,8 +31,8 @@ public class frmLogin extends javax.swing.JFrame {
     private void mFetchUserDetails()
     {
         String strDBConncetionString = "jdbc:mysql://localhost:3306/gateaccesscontrol";
-        String strDBUser = "root";
-        String strDBPassword = "Password";
+        String strDBUser = "rootuser";
+        String strDBPassword = "AccessDen13d";
         java.sql.Connection conMySQLConnectionString;
         Statement stStatement;
         ResultSet rs;
